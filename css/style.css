@@ -29,10 +29,40 @@ body {
 }
 
 .capa {
-    color: white
+    color: white;
 }
 
 .capa span {
     color: #f27609;
     display: block;
+}
+
+.capa div {
+    display: inline-block;
+    height: 650px;
+}
+
+.profile-pic {
+    width: 39%;
+    text-align: center;
+}
+
+.profile-pic img {
+    border-radius: 152px;
+    width: 320px;
+    margin-top: 100px;
+}
+
+.profile-title {
+    vertical-align: top;
+    width: 60%;
+}
+
+.profile-title h1 {
+    margin-top: 200px;
+    font-size: 58px;
+}
+
+.profile-title h2 {
+    margin-top: -26px;
 }
