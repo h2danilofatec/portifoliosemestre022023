@@ -74,3 +74,60 @@ body {
     font-weight: 100;
     font-size: 16px;
 }
+.main {
+    padding: 40px 180px 80px 100px;
+
+    /*padding-top: 40px;
+    padding-right: 180px;
+    padding-bottom: 80px;
+    padding-left: 100px;*/
+}
+
+.cv-pic {
+    float: left;
+    width: 250px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.main h1 {
+    color: white;
+    font-size: 32px;
+    font-weight: normal;
+
+}
+
+.main h2 {
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+
+.main h3 {
+    color: #f27609;
+    font-size: 12px;
+}
+
+.main p {
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 24px;
+    text-align: justify;
+}
+
+.caminho {
+    list-style: none;
+    color: grey;
+    padding-left: 0;
+}
+
+.caminho li {
+    display: inline-block;
+}
+
+.caminho a {
+    color: gray;
+}
