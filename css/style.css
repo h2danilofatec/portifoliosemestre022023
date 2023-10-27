@@ -14,6 +14,15 @@ body {
     height: 56px;
 }
 
+.navigation a {
+    color: white;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    color: #f27609;
+}
+
 .navigation ul {
     list-style: none;
     margin-top: 0;
@@ -48,6 +57,9 @@ body {
 .profile-pic {
     width: 39%;
     text-align: center;
+
+    animation-name: profile-capa;
+    animation-duration: 5s;
 }
 
 .profile-pic img {
@@ -130,4 +142,9 @@ body {
 
 .caminho a {
     color: gray;
+}
+
+@keyframes profile-capa {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
 }
