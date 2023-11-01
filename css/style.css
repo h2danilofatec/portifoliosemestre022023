@@ -12,6 +12,9 @@ body {
     background-color: #2b2b2b;
     color: white;
     height: 56px;
+
+    animation-name: navegacao;
+    animation-duration: 4s;
 }
 
 .navigation a {
@@ -40,6 +43,11 @@ body {
  font-size: 18px;
 }
 
+.navigation li.threeline-icon {
+    display: none;
+}
+
+
 .capa {
     color: white;
 }
@@ -59,7 +67,7 @@ body {
     text-align: center;
 
     animation-name: profile-capa;
-    animation-duration: 5s;
+    animation-duration: 2s;
 }
 
 .profile-pic img {
@@ -71,6 +79,9 @@ body {
 .profile-title {
     vertical-align: top;
     width: 60%;
+
+    animation-name: titulo-capa;
+    animation-duration: 2s;
 }
 
 .profile-title h1 {
@@ -145,6 +156,63 @@ body {
 }
 
 @keyframes profile-capa {
+    0% {transform: translate(0px, 20px)}
+    100% {transform: translate(0px, 0px)}
+}
+
+@keyframes titulo-capa {
+    0% {transform: translate(0px, -20px)}
+    100% {transform: translate(0px, 0px)}
+}
+
+@keyframes navegacao {
     0% {opacity: 0;}
+    50% {opacity: 0;}
     100% {opacity: 1;}
+}
+
+@media (max-width: 1000px) {
+
+    .navigation li {
+        display: none;
+    }
+
+    .navigation li.threeline-icon {
+        display: inline-block;
+    }
+
+    .capa div {
+        display: block;
+        height: auto;
+    }
+
+    .profile-pic {
+        background-color: #f27609;
+
+        width: 100%;
+    }
+
+    .profile-pic img {
+        max-width: 75%;
+        margin-top: 0;        
+    }
+
+    .profile-title {
+        background-color: green;
+        text-align: center;
+        width: 100%;
+    }
+
+    .profile-title h1 {
+        margin-top: 30px;
+        font-size: 36px;
+        margin-left:  20px;
+        margin-right: 25px;
+    }
+
+    .profile-pic h2 {
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
 }
