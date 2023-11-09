@@ -187,8 +187,6 @@ body {
     }
 
     .profile-pic {
-        background-color: #f27609;
-
         width: 100%;
     }
 
@@ -198,7 +196,7 @@ body {
     }
 
     .profile-title {
-        background-color: green;
+        
         text-align: center;
         width: 100%;
     }
@@ -215,4 +213,22 @@ body {
         margin-left: 20px;
         margin-right: 20px;
     }
+}
+
+.menuJs {
+    height: auto;
+}
+
+.menuJs ul {
+    height: auto;
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.menuJs li {
+    display: block;
+    border-bottom: solid grey 1px;
+    width: 100%;
+    padding: 0;
 }
